@@ -1,0 +1,18 @@
+navbar:
+  # 留空后使用站点标题 Jianbo.Yuan
+  blog_title: ""
+
+lazyload:
+  # GitHub Pages 仓库页需要带上根路径
+  loading_img: /jianbo-yuan/img/loading.gif
+
+# 显式使用 https，避免协议相对地址在部分环境下加载异常
+iconfont: https://at.alicdn.com/t/c/font_1736178_k526ubmyhba.css
+
+index:
+  slogan:
+    text: "多指灵巧手系统 · 机器人灵巧操作 · 多传感融合 · 虚实数据迁移"
+
+about:
+  name: "原建博"
+  intro: "多指灵巧手系统、机器人灵巧操作、多传感融合与虚实数据迁移"

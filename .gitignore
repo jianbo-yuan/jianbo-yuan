@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+.codex
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+.git.codex-backup/
+_multiconfig.yml

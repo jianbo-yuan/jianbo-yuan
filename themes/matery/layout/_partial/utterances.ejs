@@ -1,0 +1,40 @@
+<%
+    var utterancesRepo = theme.utterances.repo;
+    var utterancesIssueTerm = page.utterances_term || theme.utterances.issue_term || 'pathname';
+    var utterancesTheme = page.utterances_theme || theme.utterances.theme || 'github-light';
+    var utterancesLabel = page.utterances_label || theme.utterances.label;
+    var utterancesCrossorigin = theme.utterances.crossorigin || 'anonymous';
+%>
+
+<style>
+    .utterances-card {
+        margin: 1.5rem auto;
+    }
+
+    .utterances-card .card-content {
+        padding: 20px;
+    }
+
+    .utterances-card .utterances {
+        max-width: 100%;
+    }
+</style>
+
+<div class="card utterances-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div class="card-content">
+        <script
+            src="https://utteranc.es/client.js"
+            repo="<%- utterancesRepo %>"
+            issue-term="<%- utterancesIssueTerm %>"
+            theme="<%- utterancesTheme %>"
+            crossorigin="<%- utterancesCrossorigin %>"
+            async
+            <% if (utterancesLabel) { %>label="<%- utterancesLabel %>"<% } %>>
+        </script>
+        <noscript>请启用 JavaScript 以加载评论区。</noscript>
+    </div>
+</div>

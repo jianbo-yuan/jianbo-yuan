@@ -1,0 +1,16 @@
+[
+  {
+    "avatar": "/medias/logo.png",
+    "name": "Jianbo.Yuan",
+    "introduction": "机器人灵巧操作、多传感融合与虚实迁移",
+    "url": "https://jianbo-yuan.github.io/jianbo-yuan/",
+    "title": "访问站点"
+  },
+  {
+    "avatar": "/medias/avatar.jpg",
+    "name": "关于作者",
+    "introduction": "查看原建博简介、研究方向与代表性成果",
+    "url": "/about/",
+    "title": "查看简介"
+  }
+]
